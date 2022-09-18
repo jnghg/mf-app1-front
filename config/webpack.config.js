@@ -66,7 +66,7 @@ module.exports = () => {
         library: { type: "var", name: "app1" },
         filename: "app1.js",
         exposes: {
-          "./Button": path.resolve(
+          "./Title": path.resolve(
             __dirname,
             "..",
             "src",
