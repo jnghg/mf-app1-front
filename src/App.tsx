@@ -1,9 +1,10 @@
 import React from "react";
+import { Title } from "./app1/view";
 
 const App = () => {
   return (
     <>
-      <div>This is App1 Component</div>
+      <Title />
     </>
   );
 };
